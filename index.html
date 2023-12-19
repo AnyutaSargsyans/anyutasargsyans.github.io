@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>OnlineShop</title>
+
+    <script src="https://kit.fontawesome.com/6a036f9d4f.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" 
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <button type="button" class="scrollBtn"><i class="fa-solid fa-angles-up"></i></button>
+    <header>
+        <div class="header">
+            <div class="headerLogo">
+                <div class="headerLogo_left"><img src="./image/1.1-logo.png" class="logo"></div>
+                <div class="headerLogo_right">
+                    <div class="icon_users"><i class="fa-regular fa-user" style="color: #000000;"></i>
+                       
+                        <!--stexcel em div signIn, signUp vory kanchel em js-ov-->  
+                        <div class="signBlock">
+                            <div class="user-header">
+                                <div class="welcome">
+                                        <h1>Welcome!</h1>
+                                </div>
+                                <div class="userClose"><i class="fa-solid fa-xmark"></i></div>
+                            </div>
+                            <div class="sign">
+                                <button type="button" class="signInBtn">Sign In</button>
+                                <button type="button" class="signUpBtn">Sign Up</button>
+                            </div>
+                            <div class="signIn">
+                                <form>            
+                                    <label for="email">Email address</label><br>
+                                    <input type="email" id="email"0 name="email" class="dropSign"><br>
+                                    <label for="text">Password</label><br>
+                                    <input type="text" id="text" name="text" class="dropSign"><br>
+                                </form>
+                                <p>Keep me signed in.</p> 
+                                <h5>Forgot your password?</h5>
+                                <button type="button" class="signBtn">Sign In</button>
+                                <h3>OR</h3>
+                                <div class="media">
+                                    <div class="media-icon"><i class="fa-brands fa-facebook social" style="color: #1877F2;"></i></div>
+                                    <div class="media-icon"><i class="fa-brands fa-google"></i></div>
+                                    <div class="media-icon"><i class="fa-brands fa-apple"  style="color: #000000;"></i></div>
+                                </div>
+                                <h2>By signing in or creating an account, you agree with our Terms & 
+                                    conditions and Privacy statement</h2>  
+                            </div>                    
+                        </div>
+                        <div class="signBlock">
+                            <div class="user-header">
+                                <div class="welcome">
+                                        <h1>Welcome!</h1>
+                                </div>
+                                <div class="userClose"><i class="fa-solid fa-xmark"></i></div>
+                            </div>
+                            <div class="sign">
+                                <div class="sign-left">
+                                    <h1>Sign In</h1>
+                                </div>
+                                <div class="sign-right">
+                                    <h1>Sign Up</h1>
+                                </div>
+                            </div>
+                            <div class="signUp">
+                                <form>
+                                    <label for="text">Full name</label><br>
+                                    <input type="text" id="text" class="dropSign"><br>
+                                    <label for="email">Email address</label><br>
+                                    <input type="email" id="email"0 name="email" class="dropSign"><br>
+                                    <label for="text">Password</label><br>
+                                    <input type="text" id="text" name="text" class="dropSign"><br>
+                                </form>
+                                <p>Keep me signed in.</p> 
+                                <h5>Forgot your password?</h5>
+                                <button type="button" class="signBtn">Sign Up</button>
+                                <h3>OR</h3>
+                                <div class="media">
+                                    <div class="media-icon"><i class="fa-brands fa-facebook social" style="color: #1877F2;"></i></div>
+                                    <div class="media-icon"><i class="fa-brands fa-google"></i></div>
+                                    <div class="media-icon"><i class="fa-brands fa-apple"  style="color: #000000;"></i></div>
+                                </div>
+                                <h2>By signing in or creating an account, you agree with our Terms & 
+                                    conditions and Privacy statement</h2> 
+                            </div>  
+                        </div> 
+                    </div>
+                    <div class="icon_preffer"><i class="fa-regular fa-heart" style="color: #000000;"></i></div>
+                    <div class="icon_basket"><i class="fa-solid fa-bag-shopping" style="color: #000000;"></i></div>
+                </div>
+            </div>            
+            <div class="nav">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#" class="action">Women</a>
+                            <!--stexcel em dropdownMenu-->
+                            <div class="dropdown-menu1">
+                                <div class="dropDown">
+                                    <div class="dropdown-left">
+                                        <h2>New</h2>
+                                        <h2>Bestsellers</h2>
+                                        <h2 class="allClothing">All clothing</h2>
+                                            <div class="productRange">
+                                                <div class="product">
+                                                    <div class="productRangeLeft">
+                                                        <p>T-shirts</p>
+                                                        <p class="tops">Tops</p>
+                                                        <p>Corsets</p>
+                                                        <p>Jeans</p>
+                                                        <p>Skirts</p>
+                                                        <p>Shorts</p>
+                                                        <p>Swimsuits</p>
+                                                        <p>Denim</p>
+                                                        <p>Suits</p>
+                                                        <p>Trousers</p>
+                                                    </div>
+                                                    <div class="productRangeRight">
+                                                        <p>Lingerie</p>
+                                                        <p>Knitwear</p>
+                                                        <p>Tops</p>
+                                                        <p>Blazers</p>
+                                                        <p>Jackets</p>
+                                                        <p>Hoodies</p>
+                                                        <p>Festivals</p>
+                                                        <p>Blouses</p>
+                                                        <p>Jumpsuits</p>
+                                                        <p>Basics</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <div class="dropdown-right">
+                                        <h2>Trending now</h2>
+                                        <div class="dropdown-box">
+                                            <div class="boxPhoto">
+                                                <img src="./image/24-header-hover1.png">
+                                                <h2>Jeans</h2>
+                                            </div>
+                                            <div class="boxPhoto">
+                                                <img src="./image/25-header-hover2.png">
+                                                <h2>Tops</h2>
+                                            </div>
+                                            <div class="boxPhoto">
+                                                <img src="./image/26-header-hover3.png">
+                                                <h2>Dress</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu"><i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i></div>
+                <div class="home-right">                    
+                    <input type="search"  id="search" placeholder="Search">
+                </div>
+            </div>            
+        </div>
+        <!--stexcum em karusel-->
+        <div id="container">
+            <div class="containerSlide">
+                <img src="./image/1-header-photo1.png" alt="First slide">
+                <h1>Summer Collection 2023</h1>
+            </div>
+            <div class="containerSlide">
+                <img src="./image/2-header-photo2.jpg" alt="Second slide">                
+                <h1>Trending Items for You </h1>         
+            </div>
+            <div class="containerLiner">
+                <img src="./image/8-vector2.png" alt="liner" class="liner">
+                <img src="./image/7-vector.png" alt="liner" class="liner">
+            </div>
+            <button type="button" id="btn_prev" class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button type="button" id="btn_next" class="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </header>
+
+    
+
+
+
+    <main>
+        <section class="basic-collection">
+            <h1>New Basic Collection</h1>
+            <img src="./image/7-vector.png" class="collection">
+        </section>
+
+
+
+        <section id="women"></section>
+        
+
+
+
+        <section class="items">
+            <div class="items-photo"></div>
+            <div class="items-text">
+                <h1>Items You Can’t Miss Out</h1>
+                <button type="button" class="shop-now">Shop Now</button>
+            </div>
+        </section>
+
+        
+
+        
+        <section class="people-collection">
+            <h1>Man Shirt Collection</h1>
+            <img src="./image/7-vector.png" class="collection">
+        </section>
+
+        
+        
+        <section id="men"></section>
+
+
+
+        <section class="information">
+            <div class="information-left">
+                <h1>Get in Touch</h1>
+                <p>Subscribe to our newsteller and get 10% off your next shop,
+                    access to special offers and much more!</p>
+            </div>
+            <div class="information-right">
+                <input type="email"  id="email" placeholder="E-mail">
+                <button type="button" class="informationBtn">I’m in</button>
+                <p>I want to unsubscribe</p>
+            </div>
+        </section>
+    </main>
+
+
+
+
+ 
+    <footer class="contact">
+        <div class="customer">
+            <h1>Customer Support</h1>
+            <p>Contact us</p>
+            <p>Payment & pricing</p>
+            <p>FAQs</p>
+            <p>Terms and conditions</p>
+            <p>Privacy police</p>
+            <p>Accessibility</p>
+        </div>
+        <div class="about">
+            <h1>About Us</h1>
+            <p>About Us</p>
+            <p>Investors</p>
+            <p>Agency partners</p>
+            <p>Careers</p>
+            <p>Sitemap</p>
+            <p>Customer promise</p>
+            <p>Out to see app</p>
+        </div>
+        <div class="follow">
+            <div class="follow-up">
+                <h1>Follow Us on</h1>
+                <div class="contact-icons">                        
+                    <div class="icon"><a href="#">
+                        <i class="fa-brands fa-instagram" style="color:  #121212;"></i></a></div>
+                    <div class="icon"><a href="#">
+                        <i class="fa-brands fa-facebook-f" style="color:  #121212;"></i></a></div>
+                    <div class="icon"><a href="#">
+                        <i class="fa-brands fa-twitter" style="color:  #121212;"></i></a></div>
+                </div>
+            </div>
+            <div class="follow-down">
+                <h1>Our App</h1>
+                <div class="follow-svg">
+                    <img src="./image/16-google-play.png" class="nkar">
+                    <img src="./image/17-AppStore.png" class="nkar">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" 
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+        <script src="js/main.js"></script>
+
+</body>
+</html>
